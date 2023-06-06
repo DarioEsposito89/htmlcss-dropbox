@@ -118,7 +118,7 @@ main .col-small .btn-action {
 
 main .plane-section .container {
     display: block;
-    max-width: 940px;
+    max-width: 800px;
     background-color: aqua;
 }
 
@@ -129,7 +129,30 @@ h1, h2 {
 .radio-plane {
     display: flex;
     gap: 1rem;
+    padding-bottom: 30px;
 }
+
+.col {
+    display: flex;
+}
+
+.type-user {
+    background-color: red;
+    display: flex;
+    gap: .2rem;
+}
+
+.type-offer {
+    background-color: green;
+}
+
+.offer {
+    background-color: yellow;
+}
+
+
+
+
 
 
 
