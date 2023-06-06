@@ -132,9 +132,15 @@ h1, h2 {
     padding-bottom: 30px;
 }
 
-.col {
+.columns {
     display: flex;
+    gap: 1rem;
 }
+
+.col-plane {
+    line-height: 20px;
+}
+
 
 .type-user {
     background-color: red;
@@ -148,6 +154,14 @@ h1, h2 {
 
 .offer {
     background-color: yellow;
+}
+
+.time {
+    background-color: pink;
+}
+
+.highlights {
+    background-color: orange;
 }
 
 
