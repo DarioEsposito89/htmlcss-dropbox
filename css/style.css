@@ -1,3 +1,4 @@
+/* IMPOSTAZIONI DEFAULT */
 * {
     margin: 0;
     padding: 0;
@@ -9,3 +10,16 @@ body {
     height: 100vh;
     overflow: auto;
 }
+
+.container {
+    display: flex;
+}
+
+/* VARIABILI */
+:root {
+    --background-btn: #0061ff;
+    --background-section: #b4d0e7;
+    --background-section-dark: #000000;
+    --title-colored: #61082b;
+}
+
