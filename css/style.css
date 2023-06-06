@@ -1,4 +1,4 @@
-/* IMPOSTAZIONI DEFAULT */
+/* DEFAULT */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     display: flex;
 }
 
-/* VARIABILI */
+/* VAR */
 :root {
     --background-btn: #0061ff;
     --background-section: #b4d0e7;
@@ -23,3 +23,34 @@ body {
     --title-colored: #61082b;
 }
 
+/* NAVIGATION BAR */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.btn-left, .btn-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul a {
+    display: inline-block;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-start a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--background-btn);
+    padding: .5rem 1rem;
+}
