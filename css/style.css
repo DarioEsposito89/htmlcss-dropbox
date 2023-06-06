@@ -74,7 +74,6 @@ main .hero-section .container {
 
 h1 {
     font-size: 70px;
-    padding-bottom: 30px;
 }
 
 .row {
@@ -121,6 +120,15 @@ main .plane-section .container {
     display: block;
     max-width: 940px;
     background-color: aqua;
+}
+
+h1, h2 {
+    padding-bottom: 30px;
+}
+
+.radio-plane {
+    display: flex;
+    gap: 1rem;
 }
 
 
