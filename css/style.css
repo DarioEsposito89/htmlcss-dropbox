@@ -23,8 +23,12 @@ body {
     --title-colored: #61082b;
 }
 
+.container {
+    margin: auto;
+}
+
 /* NAVIGATION BAR */
-.nav-container {
+nav .container {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -48,9 +52,36 @@ nav ul a {
     text-decoration: none;
 }
 
-.btn-start a {
+.btn-action a {
     text-decoration: none;
     color: white;
     background-color: var(--background-btn);
     padding: .5rem 1rem;
 }
+
+.hero-section {
+    background-color: var(--background-section);
+    padding-top: 40px;
+    margin-bottom: -40px;
+    border: 2px dashed red;
+}
+
+main .hero-section .container {
+    display: block;
+    max-width: 980px;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+.coll-small {
+    
+}
+
+
+
+
+
+
