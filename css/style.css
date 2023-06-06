@@ -111,6 +111,7 @@ main .col-small .btn-action {
     padding-top: 40px;
 }
 
+/* PLANE SECTION */
 .plane-section {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -119,8 +120,7 @@ main .col-small .btn-action {
 
 main .plane-section .container {
     display: block;
-    max-width: 800px;
-    /* background-color: aqua; */
+    max-width: 865px;
 }
 
 h1, h2 {
@@ -131,12 +131,14 @@ h4 {
     padding-bottom: 20px;
 }
 
+/* INPUT RADIO */
 .radio-plane {
     display: flex;
     gap: 1rem;
     padding-bottom: 30px;
 }
 
+/* COLUMNS PLANE */
 .columns {
     display: flex;
     gap: 1rem;
@@ -146,13 +148,22 @@ h4 {
     border: 2px solid var(--border);
 }
 
-.type-user, .type-offer, .offer, .time, .highlights {
-    padding: 20px 10px;
-    line-height: 20px;
+.col-plane ul {
+    list-style-image: url(../img/check-solid.svg);
 }
 
+.type-user, .type-offer, .offer, .time, .highlights {
+    padding: 20px 20px;
+    line-height: 30px;
+}
 
-.type-user {
+/* CONTACT ROW */
+.row-plane {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-user, .type-user {
     display: flex;
     gap: .2rem;
     padding-top: 10px;
@@ -160,6 +171,20 @@ h4 {
     align-items: center;
     justify-content: center;
     border: 2px solid var(--border);
+}
+
+.contact-row {
+    display: flex;
+    border: 2px solid var(--border);
+    padding: 30px 20px;
+}
+
+.contact-left {
+    width: 70%;
+}
+
+.contact-right {
+    width: 30%;
 }
 
 
