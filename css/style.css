@@ -198,14 +198,14 @@ h4, h3 {
 }
 
 .partner-large {
-    width: 70%;
+    width: 60%;
     background-image: url(../img/partner.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .partner-small {
-    width: 30%;
+    width: 40%;
     padding-top: 60px;
 }
 
@@ -224,6 +224,8 @@ h4, h3 {
 .partner-small p {
     line-height: 20px;
 }
+
+
 
 
 
