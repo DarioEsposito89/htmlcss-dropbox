@@ -276,12 +276,14 @@ main .col-small .btn-primary {
 
 /* FREQUENT QUESTIONS */
 .question {
+    display: flex;
+    justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .question i {
-    display: inline-block;
+    font-size: .6rem;
 }
 
 .chevron-down {
