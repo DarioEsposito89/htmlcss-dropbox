@@ -269,12 +269,27 @@ main .col-small .btn-primary {
     width: 40%;
 }
 
+/* FREE TRIAL SECTION */
 .free-trial .large h2 {
     color: var(--title-colored);
 }
 
-/* FOOTER SECTION */
+/* FREQUENT QUESTIONS */
+.question {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.question i {
+    display: inline-block;
+}
+
+.chevron-down {
+    text-align: right;
+    padding-right: 3rem;
+}
+
+/* FOOTER SECTION */
 footer h3 {
     color: white;
 }
