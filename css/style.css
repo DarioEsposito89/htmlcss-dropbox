@@ -38,6 +38,18 @@ body {
     max-width: 980px;
 }
 
+h1 {
+    font-size: 70px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex-basis: 33.3%;
+}
+
 /* NAVIGATION BAR */
 nav .container {
     display: flex;
@@ -83,18 +95,9 @@ section {
     margin-bottom: -40px;
 }
 
-h1 {
-    font-size: 70px;
-}
-
-.row {
-    display: flex;
+.hero-row {
     width: 100%;
     min-height: 100px;
-}
-
-.col {
-    flex-basis: 33.3%;
 }
 
 .col-small {
@@ -224,7 +227,21 @@ h4, h3 {
     line-height: 20px;
 }
 
+/* CARDS SECTION */
 
+.cards-row {
+    gap: 1;
+}
+
+.card {
+    background-color: rgb(168, 164, 164);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 
 
