@@ -128,7 +128,7 @@ h1, h2 {
     padding-bottom: 30px;
 }
 
-h4 {
+h4, h3 {
     padding-bottom: 20px;
 }
 
@@ -207,6 +207,22 @@ h4 {
 .partner-small {
     width: 30%;
     padding-top: 60px;
+}
+
+.btn-incolor a {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+
+.partner-small .btn-incolor {
+    padding-top: 40px;
+}
+
+.partner-small p {
+    line-height: 20px;
 }
 
 
