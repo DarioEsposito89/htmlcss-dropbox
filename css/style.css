@@ -95,7 +95,6 @@ h1 {
 
 .col {
     flex-basis: 33.3%;
-    padding: 0 .5rem;
 }
 
 .col-small {
@@ -156,10 +155,6 @@ h4, h3 {
     list-style-image: url(../img/check-solid.svg);
 }
 
-.type-user {
-    min-width: 100%;
-}
-
 .type-user, .type-offer, .offer, .time, .highlights {
     padding: 20px 20px;
     line-height: 30px;
@@ -168,7 +163,6 @@ h4, h3 {
 /* CONTACT ROW */
 .row-plane {
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .contact-user, .type-user {
@@ -198,9 +192,7 @@ h4, h3 {
 /* PARTNER SECTION */
 .partner-row {
     display: flex;
-    padding-top:  40px;
-    padding-bottom: 40px;
-    min-height: 100px;
+    height: 500px;
     gap: 2rem;
 }
 
