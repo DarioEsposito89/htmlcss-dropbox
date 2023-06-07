@@ -21,6 +21,14 @@ body {
     --border: #e6e6e8;
 }
 
+.background-section {
+    background-color: var(--background-section);
+}
+
+.background-dark {
+    background-color: var(--background-section-dark);
+}
+
 .container {
     border: 2px dashed blue;
     margin: auto;
@@ -40,6 +48,25 @@ body {
 
 h1 {
     font-size: 70px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--background-btn);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+
+.btn-incolor {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.btn-noborder {
+border: 0;
 }
 
 .row {
@@ -75,7 +102,7 @@ nav ul a {
     text-decoration: none;
 }
 
-.btn-action a {
+.btn-primary a {
     text-decoration: none;
     color: white;
     background-color: var(--background-btn);
@@ -89,8 +116,7 @@ section {
 }
 
 /* HERO SECTION */
-.hero-section {
-    background-color: var(--background-section);
+.hero {
     padding-bottom: 80px;
     margin-bottom: -40px;
 }
@@ -118,9 +144,9 @@ section {
     width: 100%;
 }
 
-main .col-small .btn-action {
-    padding-top: 30px;
-    padding-bottom: 30px;
+main .col-small .btn-primary {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .arrow {
@@ -211,14 +237,6 @@ h4, h3 {
     padding-top: 60px;
 }
 
-.btn-incolor a {
-    background-color: white;
-    border: 2px solid black;
-    color: black;
-    text-decoration: none;
-    padding: .5rem 1rem;
-}
-
 .partner-small .btn-incolor {
     padding-top: 40px;
 }
@@ -232,7 +250,7 @@ h4, h3 {
 .cards-col {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
     padding-bottom: 2rem;
 }
 .card img {
@@ -240,6 +258,38 @@ h4, h3 {
     height: 100%;
     object-fit: contain;
 }
+
+.large {
+    width: 60%;
+}
+
+.small {
+    width: 40%;
+}
+
+/* FOOTER SECTION */
+
+footer h4 {
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    line-height: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .col-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+
+
 
 
 
