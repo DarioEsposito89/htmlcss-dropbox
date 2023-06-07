@@ -77,6 +77,14 @@ border: 0;
     flex-basis: 33.3%;
 }
 
+h1, h2 {
+    padding-bottom: 30px;
+}
+
+h4, h3 {
+    padding-bottom: 20px;
+}
+
 /* NAVIGATION BAR */
 nav .container {
     display: flex;
@@ -155,13 +163,7 @@ main .col-small .btn-primary {
 }
 
 /* PLANE SECTION */
-h1, h2 {
-    padding-bottom: 30px;
-}
 
-h4, h3 {
-    padding-bottom: 20px;
-}
 
 /* INPUT RADIO */
 .radio-plane {
@@ -267,9 +269,13 @@ h4, h3 {
     width: 40%;
 }
 
+.free-trial .large h2 {
+    color: var(--title-colored);
+}
+
 /* FOOTER SECTION */
 
-footer h4 {
+footer h3 {
     color: white;
 }
 
@@ -286,6 +292,15 @@ footer a {
 .container-footer {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 0;
+    max-width: 980px;
+}
+
+.footer-lan {
+    color: white;
+    line-height: 50px;
+    padding-top: 20px;
+    margin-bottom: 0;
 }
 
 .language {
