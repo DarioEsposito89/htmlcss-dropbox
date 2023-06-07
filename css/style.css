@@ -50,23 +50,33 @@ h1 {
     font-size: 70px;
 }
 
-.btn-primary {
-    color: white;
-    background-color: var(--background-btn);
+.btn {
     text-align: center;
     align-items: center;
-    text-decoration: none;
     padding: .5rem 1rem;
+}
+
+.btn-primary {
+    background-color: var(--background-btn);
 }
 
 .btn-incolor {
     background-color: white;
     border: 2px solid black;
-    color: black;
 }
 
 .btn-noborder {
-border: 0;
+border: 2px solid transparent;
+}
+
+.btn-primary a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-incolor a {
+    text-decoration: none;
+    color: black;
 }
 
 .row {
@@ -108,13 +118,6 @@ nav ul a {
     color: black;
     list-style: none;
     text-decoration: none;
-}
-
-.btn-primary a {
-    text-decoration: none;
-    color: white;
-    background-color: var(--background-btn);
-    padding: .5rem 1rem;
 }
 
 section {
@@ -239,12 +242,12 @@ main .col-small .btn-primary {
     padding-top: 60px;
 }
 
-.partner-small .btn-incolor {
-    padding-top: 40px;
-}
-
 .partner-small p {
     line-height: 20px;
+}
+
+.partner-small .btn-incolor {
+    margin-top: 30px;
 }
 
 /* CARDS SECTION */
