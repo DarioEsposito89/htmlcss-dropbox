@@ -229,14 +229,12 @@ h4, h3 {
 
 /* CARDS SECTION */
 
-.cards-row {
-    gap: 1;
+.cards-col {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 2rem;
 }
-
-.card {
-    background-color: rgb(168, 164, 164);
-}
-
 .card img {
     width: 100%;
     height: 100%;
