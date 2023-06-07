@@ -283,9 +283,14 @@ footer a {
     color: white;
 }
 
-footer .col-footer {
+.container-footer {
     display: flex;
-    gap: 1rem;
+    justify-content: space-between;
+}
+
+.language {
+    color: #999999;
+    font-size: .8rem;
 }
 
 
