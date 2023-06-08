@@ -180,6 +180,31 @@ main .col-small .btn-primary {
     padding-bottom: 30px;
 }
 
+.radio-plane label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-plane [type="radio"] {
+    display: none;
+}
+
+
+.radio-plane label .fake-radio {
+    content: "";
+    border: 1px solid gray;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.radio-plane label input:checked ~ .fake-radio {
+    border-color: var(--background-btn);
+    border-width: 5px;
+}
+
 /* COLUMNS PLANE */
 .columns {
     display: flex;
