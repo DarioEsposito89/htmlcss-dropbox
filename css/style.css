@@ -285,6 +285,7 @@ main .col-small .btn-primary {
 
 .society {
     display: flex;
+    position: relative;
 }
 
 .box {
@@ -294,30 +295,53 @@ main .col-small .btn-primary {
     background-color: #0061ff;
     width: calc(100% / 3);
     aspect-ratio: 1/1;
-    position: relative;
 }
 
-.minibox {
-    border: 2px solid green;
+.box .minibox {
+    border: 6px solid transparent;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+}
+
+.society-a {
+    background-color: #a2d39b;
+}
+
+.society-b {
+    background-color: #61082b;
+}
+
+.society-c {
+    background-color: #0093ce;
+}
+
+.society-d {
+    background-color: #ff1c1c;
+}
+
+.society-e {
+    background-color: #d5001f;
+}
+
+.society-f {
+    background-color: #b4d0e7;
+}
+
+.society-g {
+    background-color: #0d2481;
+}
+
+.society-h {
+    background-color: #ffd830;
+}
+
+.box .minibox svg {
     width: 50%;
-    height: 50%;
+    height: auto;
+    color: white;
 }
-
-.minilogo img {
-    object-fit: contain;
-    width: 100%;
-    padding: 50px 50px;
-}
-
-.logosociety {
-
-}
-
-
 
 /* FREE TRIAL SECTION */
 .free-trial .large h2 {
