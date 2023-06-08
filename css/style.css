@@ -30,7 +30,6 @@ body {
 }
 
 .container {
-    border: 2px dashed blue;
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -123,7 +122,6 @@ nav ul a {
 section {
     padding-top: 40px;
     padding-bottom: 40px;
-    border: 2px dashed red;
 }
 
 /* HERO SECTION */
@@ -294,7 +292,6 @@ main .col-small .btn-primary {
 }
 
 /* CARDS SECTION */
-
 .cards-col {
     display: flex;
     justify-content: space-between;
@@ -337,13 +334,10 @@ main .col-small .btn-primary {
 .box .minibox {
     border: 6px solid transparent;
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box .minibox:hover {
-    border-color: rgb(167, 243, 167);
 }
 
 .box .minibox:hover .minibox-content {
@@ -354,32 +348,64 @@ main .col-small .btn-primary {
     background-color: #a2d39b;
 }
 
+.box .society-a:hover {
+    border-color: rgb(152, 255, 152);
+}
+
 .society-b {
     background-color: #61082b;
+}
+
+.box .society-b:hover {
+    border-color: #a41f54;
 }
 
 .society-c {
     background-color: #0093ce;
 }
 
+.box .society-c:hover {
+    border-color: #6fd6ff;
+}
+
 .society-d {
     background-color: #ff1c1c;
+}
+
+.box .society-d:hover {
+    border-color: #9b2d2d;
 }
 
 .society-e {
     background-color: #d5001f;
 }
 
+.box .society-e:hover {
+    border-color: #f94646;
+}
+
 .society-f {
     background-color: #b4d0e7;
+}
+
+.box .society-f:hover {
+    border-color: #6dbdff;
 }
 
 .society-g {
     background-color: #0d2481;
 }
 
+.box .society-g:hover {
+    border-color: #3d5bd5;
+}
+
 .society-h {
     background-color: #ffd830;
+}
+
+.box .society-h:hover {
+    border-color: #aa9431;
 }
 
 .box .minibox svg {
